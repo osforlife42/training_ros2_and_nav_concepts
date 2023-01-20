@@ -1,0 +1,6 @@
+build/*
+install/*
+log/*
+site/*
+docker_build/*
+__pycache__/*
