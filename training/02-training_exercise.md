@@ -49,7 +49,7 @@ Create a dedicated ros2 package for the messages you’ll use in communicating w
         [https://articulatedrobotics.xyz/ready-for-ros-6-tf/](https://articulatedrobotics.xyz/ready-for-ros-6-tf/)
 
     2. View the tf tree and understand it using tf-tools. 
-    3. Now spawn your drone sdf into the simulation (use the same way as in the tutorial bringup). Make sure you are still able to communicate with your drone in the same way. For this stage, checkout to ardupilot_training_add_on to save some devops installation time. 
+    3.  To save some devops installation time - checkout to ardupilot_add_on. Spawn your drone sdf into the simulation (look for references in nav2_bringup or in other tutorial packages). Make sure you are still able to communicate with your drone in the same way (with SITL).  
 7. Wrap it all together - 
     1. Listen for tf from the vehicle
     2. Choose a good tf frame to work with - which frame is it? THINK: It should be easy from this frame to transfer it to lat,long coordinates. Transform the robot location to this frame using tf to and from this frame create a listener which transforms this tf to lat, long.  
