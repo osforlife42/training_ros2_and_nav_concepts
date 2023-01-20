@@ -17,7 +17,7 @@ To run the docker with all the capabilities, volumes needed for ros2 inside dock
 
 (To learn more about what's starting the project look into the scripts folder).
 
-For starters, inside the docker, build the package workspace packages and then run 
+For starters, inside the docker, build the workspace packages and then run 
 ```
 ros2 launch training_bringup training_tb3_sim_launch.py
 ``` 
